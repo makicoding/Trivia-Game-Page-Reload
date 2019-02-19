@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia Game</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <!-- Meyerweb CSS Reset Link -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">    
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Signika" rel="stylesheet">
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+    <!-- Background Image -->
+    <img class="backgroundImage" src="assets/images/PSQuality8/3000px_CinemaIllustration.jpg" alt="Background">
+
+    <!-- Game Container Background -->
+    <div class="overallGameContainerBackground"></div>
+
+    <!-- Game Container -->
+    <div class="overallGameContainer">
+
+        <div class="gameTitle">'90s Movie Trivia</div>    
+
+        <div class="gameStartText"></div>
+        <button class="gameStartButton"></button>
+
+        <div class="countdown"></div>
+
+        <div class="questionContainer"></div>
+
+        <div class="buttonsForQuestion1">
+            <button class="possibleAnswerButton_01"></button><br>
+            <button class="possibleAnswerButton_02"></button><br>
+            <button class="possibleAnswerButton_03"></button><br>
+            <button class="possibleAnswerButton_04"></button>
+        </div>
+
+        <div class="buttonsForQuestion2">
+            <button class="possibleAnswerButton_05"></button><br>
+            <button class="possibleAnswerButton_06"></button><br>
+            <button class="possibleAnswerButton_07"></button><br>
+            <button class="possibleAnswerButton_08"></button>
+        </div>
+
+        <div class="buttonsForQuestion3">
+            <button class="possibleAnswerButton_09"></button><br>
+            <button class="possibleAnswerButton_10"></button><br>
+            <button class="possibleAnswerButton_11"></button><br>
+            <button class="possibleAnswerButton_12"></button>
+        </div>
+
+        <div class="buttonsForQuestion4">
+            <button class="possibleAnswerButton_13"></button><br>
+            <button class="possibleAnswerButton_14"></button><br>
+            <button class="possibleAnswerButton_15"></button><br>
+            <button class="possibleAnswerButton_16"></button>
+        </div>
+
+        <div class="buttonsForQuestion5">
+            <button class="possibleAnswerButton_17"></button><br>
+            <button class="possibleAnswerButton_18"></button><br>
+            <button class="possibleAnswerButton_19"></button><br>
+            <button class="possibleAnswerButton_20"></button>
+        </div>
+
+        <div class="correctCommentContainer"></div>
+        <div class="incorrectCommentContainer"></div>
+
+        <br></br>
+
+        <div class="correctCountContainer"></div>
+        <div class="incorrectCountContainer"></div>
+        <div class="unansweredCountContainer"></div>
+
+        <br></br>
+
+        <!-- Game Reset Button (no page reload) -->
+        <!--
+        <button class="gameResetButton"></button>
+        -->
+
+        <!-- Game Reset Button (page reload) -->
+        <button class="gameResetButton" onclick="onClickReload()"></button>
+
+
+    </div>
+
+
+    <!-- JavaScript Link -->
+    <script src="assets/javascript/app.js"></script>
+
+</body>
+</html>
